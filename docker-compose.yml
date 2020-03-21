@@ -1,0 +1,18 @@
+mongodb:
+  image: mongo
+  ports:
+    - 27017:27017
+
+mongo-seed:
+  build: ./mongo-seed
+  links:
+    - mongodb
+
+myretail:
+  image: prasadanvekar/my-retail
+  links: 
+    - mongodb
+  ports:
+    - 8080:8080
+  restart: unless-stopped
+

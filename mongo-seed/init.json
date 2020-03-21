@@ -1,0 +1,22 @@
+[{
+    "productId": 13043945,
+    "price": {
+      "value": 17.99,
+      "currency_code": "USD"
+    }
+  },
+  {
+    "productId": 53493249,
+    "price": {
+      "value": 17.98,
+      "currency_code": "USD"
+    }
+  },
+  {
+    "productId": 53565540,
+    "price": {
+      "value": 24.99,
+      "currency_code": "USD"
+    }
+  }
+]
